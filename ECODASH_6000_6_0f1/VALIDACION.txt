@@ -1,0 +1,7 @@
+PASS level 1: 10 accessible residues, reachable bin, 4 rocks, 0 pools
+PASS level 2: 20 accessible residues, reachable bin, 9 rocks, 2 pools
+PASS level 3: 30 accessible residues, reachable bin, 16 rocks, 3 pools
+PASS: 4 valid WAV files
+PASS: 16 sprite rectangles within atlas
+PASS: C# delimiter balance (not a compiler)
+NOT RUN: Unity compilation, Editor validation, Play Mode, Windows build. Unity is not installed in the delivery environment.

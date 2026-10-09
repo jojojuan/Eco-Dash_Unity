@@ -1,0 +1,116 @@
+{
+  "sprites": [
+    {
+      "name": "PLAYER_IDLE_0",
+      "x": 73,
+      "y": 926,
+      "width": 214,
+      "height": 280
+    },
+    {
+      "name": "PLAYER_IDLE_1",
+      "x": 362,
+      "y": 926,
+      "width": 219,
+      "height": 280
+    },
+    {
+      "name": "PLAYER_WALK_0",
+      "x": 677,
+      "y": 925,
+      "width": 225,
+      "height": 274
+    },
+    {
+      "name": "PLAYER_WALK_1",
+      "x": 986,
+      "y": 917,
+      "width": 224,
+      "height": 284
+    },
+    {
+      "name": "PLAYER_PICKUP_0",
+      "x": 50,
+      "y": 576,
+      "width": 263,
+      "height": 242
+    },
+    {
+      "name": "PLAYER_PICKUP_1",
+      "x": 374,
+      "y": 585,
+      "width": 224,
+      "height": 286
+    },
+    {
+      "name": "PLAYER_CELEBRATE_0",
+      "x": 664,
+      "y": 588,
+      "width": 270,
+      "height": 274
+    },
+    {
+      "name": "PLAYER_CELEBRATE_1",
+      "x": 984,
+      "y": 605,
+      "width": 259,
+      "height": 270
+    },
+    {
+      "name": "Bottle",
+      "x": 84,
+      "y": 334,
+      "width": 155,
+      "height": 149
+    },
+    {
+      "name": "Can",
+      "x": 397,
+      "y": 328,
+      "width": 139,
+      "height": 149
+    },
+    {
+      "name": "Bag",
+      "x": 694,
+      "y": 324,
+      "width": 174,
+      "height": 194
+    },
+    {
+      "name": "Paper",
+      "x": 1021,
+      "y": 335,
+      "width": 156,
+      "height": 142
+    },
+    {
+      "name": "Container",
+      "x": 59,
+      "y": 35,
+      "width": 223,
+      "height": 246
+    },
+    {
+      "name": "Rock",
+      "x": 355,
+      "y": 44,
+      "width": 243,
+      "height": 172
+    },
+    {
+      "name": "Palm",
+      "x": 657,
+      "y": 23,
+      "width": 251,
+      "height": 284
+    },
+    {
+      "name": "Gull",
+      "x": 940,
+      "y": 40,
+      "width": 295,
+      "height": 228
+    }
+  ]
+}

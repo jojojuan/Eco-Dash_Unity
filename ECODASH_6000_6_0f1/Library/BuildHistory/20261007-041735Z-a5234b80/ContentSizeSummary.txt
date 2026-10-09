@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Build Report - Content Size Statistics
+Note: this shows uncompressed sizes.  Actual sizes may be smaller because of Unity Archive compression.
+Serialized File count                     23
+Resource file count                        0
+Object count                            1346
+Serialized Files                      14.1 mb	 100.0%
+Serialized Files Headers              50.4 kb	   0.3%
+Resource data (Texture,Audio...)       0.0 bytes	   0.0%
+Total build size                      14.1 mb
+
+Largest Types:
+    13.2 mb	  93.4% Texture2D
+   512.2 kb	   3.5% Cubemap
+   234.4 kb	   1.6% AudioClip
+
+Largest Assets:
+     6.0 mb	  42.6% Assets/Art/ECODASH_Sprites.png
+     4.5 mb	  31.9% Assets/Art/Beach.png
+   519.8 kb	   3.6% Resources/unity_builtin_extra
+   203.3 kb	   1.4% Assets/Audio/Music/BeachLoop.wav
+-------------------------------------------------------------------------------

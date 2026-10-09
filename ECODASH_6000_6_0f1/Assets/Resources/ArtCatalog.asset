@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9deada9b7e7ddb745bf41c6f48c782e6, type: 3}
+  m_Name: ArtCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::EcoDash.ArtCatalog
+  idle:
+  - {fileID: -1522033975, guid: 098846d79204286448dbf6696f4251cc, type: 3}
+  - {fileID: -5863735, guid: 098846d79204286448dbf6696f4251cc, type: 3}
+  walk:
+  - {fileID: 1942657651, guid: 098846d79204286448dbf6696f4251cc, type: 3}
+  - {fileID: 783178614, guid: 098846d79204286448dbf6696f4251cc, type: 3}
+  pickup:
+  - {fileID: -789958345, guid: 098846d79204286448dbf6696f4251cc, type: 3}
+  - {fileID: -444370150, guid: 098846d79204286448dbf6696f4251cc, type: 3}
+  celebrate:
+  - {fileID: 1786026874, guid: 098846d79204286448dbf6696f4251cc, type: 3}
+  - {fileID: -668744536, guid: 098846d79204286448dbf6696f4251cc, type: 3}
+  bottle: {fileID: 1266067375, guid: 098846d79204286448dbf6696f4251cc, type: 3}
+  can: {fileID: 1801701913, guid: 098846d79204286448dbf6696f4251cc, type: 3}
+  bag: {fileID: 1982064625, guid: 098846d79204286448dbf6696f4251cc, type: 3}
+  paper: {fileID: 1219010700, guid: 098846d79204286448dbf6696f4251cc, type: 3}
+  container: {fileID: 1477246146, guid: 098846d79204286448dbf6696f4251cc, type: 3}
+  rock: {fileID: -1115388208, guid: 098846d79204286448dbf6696f4251cc, type: 3}
+  palm: {fileID: 582926569, guid: 098846d79204286448dbf6696f4251cc, type: 3}
+  gull: {fileID: -1167130230, guid: 098846d79204286448dbf6696f4251cc, type: 3}
+  beach: {fileID: 21300000, guid: 98e0dc4763ab0074e904489494a9e9b7, type: 3}
+  music: {fileID: 8300000, guid: 89f30f7f3e0679d4898243d970302364, type: 3}
+  collectSound: {fileID: 8300000, guid: 95c3a9eccc8548a4096bdd5740485444, type: 3}
+  depositSound: {fileID: 8300000, guid: 0cc8fc5c755d68444b7cff8ebfb525c1, type: 3}
+  victorySound: {fileID: 8300000, guid: fef07155affeb704b9a632a927debc23, type: 3}

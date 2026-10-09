@@ -1,0 +1,5 @@
+<linker>
+	<assembly fullname="UnityEngine.CoreModule">
+		<type fullname="UnityEngine.Vector2" preserve="nothing" serialized="true"/>
+	</assembly>
+</linker>

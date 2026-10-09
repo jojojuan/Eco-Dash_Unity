@@ -1,0 +1,158 @@
+{
+  "context": {
+    "projectPath": "D:/2025_UCCI/CHANCHOFINAL/ECODASH_6000_6_0f1/Packages",
+    "unityVersion": "6000.6.0f1"
+  },
+  "inputs": [
+    "D:\\2025_UCCI\\CHANCHOFINAL\\ECODASH_6000_6_0f1\\Packages\\manifest.json",
+    "D:\\2025_UCCI\\CHANCHOFINAL\\ECODASH_6000_6_0f1\\Packages\\packages-lock.json",
+    "C:\\Program Files\\Unity\\Hub\\Editor\\6000.6.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
+  ],
+  "outputs": {
+    "com.unity.2d.sprite@1.0.0": {
+      "name": "com.unity.2d.sprite",
+      "displayName": "2D Sprite",
+      "resolvedPath": "D:\\2025_UCCI\\CHANCHOFINAL\\ECODASH_6000_6_0f1\\Library\\PackageCache\\com.unity.2d.sprite@947350d67f82",
+      "fingerprint": "947350d67f82d1927c325424cc1faf81356669a5",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.connect.share@4.2.4": {
+      "name": "com.unity.connect.share",
+      "displayName": "WebGL Publisher",
+      "resolvedPath": "D:\\2025_UCCI\\CHANCHOFINAL\\ECODASH_6000_6_0f1\\Library\\PackageCache\\com.unity.connect.share@26544eac5181",
+      "fingerprint": "26544eac51818212e7dbbc6c65611a4ae8fdfc69",
+      "editorCompatibility": "2019.3.0a1",
+      "version": "4.2.4",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.inputsystem@1.20.1": {
+      "name": "com.unity.inputsystem",
+      "displayName": "Input System",
+      "resolvedPath": "D:\\2025_UCCI\\CHANCHOFINAL\\ECODASH_6000_6_0f1\\Library\\PackageCache\\com.unity.inputsystem@2436e68c60c4",
+      "fingerprint": "2436e68c60c469edbccef8f6b3c319b9441f4675",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "1.20.1",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.ugui@2.6.0": {
+      "name": "com.unity.ugui",
+      "displayName": "uGUI",
+      "resolvedPath": "D:\\2025_UCCI\\CHANCHOFINAL\\ECODASH_6000_6_0f1\\Library\\PackageCache\\com.unity.ugui@23caec89ae27",
+      "fingerprint": "23caec89ae2780ae2aa9b14f95a19c03e3dcdf9e",
+      "version": "2.6.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.animation@1.0.0": {
+      "name": "com.unity.modules.animation",
+      "displayName": "Animation",
+      "resolvedPath": "D:\\2025_UCCI\\CHANCHOFINAL\\ECODASH_6000_6_0f1\\Library\\PackageCache\\com.unity.modules.animation",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.audio@1.0.0": {
+      "name": "com.unity.modules.audio",
+      "displayName": "Audio",
+      "resolvedPath": "D:\\2025_UCCI\\CHANCHOFINAL\\ECODASH_6000_6_0f1\\Library\\PackageCache\\com.unity.modules.audio",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.imageconversion@1.0.0": {
+      "name": "com.unity.modules.imageconversion",
+      "displayName": "Image Conversion",
+      "resolvedPath": "D:\\2025_UCCI\\CHANCHOFINAL\\ECODASH_6000_6_0f1\\Library\\PackageCache\\com.unity.modules.imageconversion",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.imgui@1.0.0": {
+      "name": "com.unity.modules.imgui",
+      "displayName": "IMGUI",
+      "resolvedPath": "D:\\2025_UCCI\\CHANCHOFINAL\\ECODASH_6000_6_0f1\\Library\\PackageCache\\com.unity.modules.imgui",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.jsonserialize@1.0.0": {
+      "name": "com.unity.modules.jsonserialize",
+      "displayName": "JSONSerialize",
+      "resolvedPath": "D:\\2025_UCCI\\CHANCHOFINAL\\ECODASH_6000_6_0f1\\Library\\PackageCache\\com.unity.modules.jsonserialize",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.physics2d@1.0.0": {
+      "name": "com.unity.modules.physics2d",
+      "displayName": "Physics 2D",
+      "resolvedPath": "D:\\2025_UCCI\\CHANCHOFINAL\\ECODASH_6000_6_0f1\\Library\\PackageCache\\com.unity.modules.physics2d",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.ui@1.0.0": {
+      "name": "com.unity.modules.ui",
+      "displayName": "UI",
+      "resolvedPath": "D:\\2025_UCCI\\CHANCHOFINAL\\ECODASH_6000_6_0f1\\Library\\PackageCache\\com.unity.modules.ui",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.uielements@1.0.0": {
+      "name": "com.unity.modules.uielements",
+      "displayName": "UIElements",
+      "resolvedPath": "D:\\2025_UCCI\\CHANCHOFINAL\\ECODASH_6000_6_0f1\\Library\\PackageCache\\com.unity.modules.uielements",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.hierarchycore@1.0.0": {
+      "name": "com.unity.modules.hierarchycore",
+      "displayName": "Hierarchy Core",
+      "resolvedPath": "D:\\2025_UCCI\\CHANCHOFINAL\\ECODASH_6000_6_0f1\\Library\\PackageCache\\com.unity.modules.hierarchycore",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.physics@1.0.0": {
+      "name": "com.unity.modules.physics",
+      "displayName": "Physics",
+      "resolvedPath": "D:\\2025_UCCI\\CHANCHOFINAL\\ECODASH_6000_6_0f1\\Library\\PackageCache\\com.unity.modules.physics",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.physicscore2d@1.0.0": {
+      "name": "com.unity.modules.physicscore2d",
+      "displayName": "Physics Core 2D",
+      "resolvedPath": "D:\\2025_UCCI\\CHANCHOFINAL\\ECODASH_6000_6_0f1\\Library\\PackageCache\\com.unity.modules.physicscore2d",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.editorcoroutines@6.6.0": {
+      "name": "com.unity.editorcoroutines",
+      "displayName": "Editor Coroutines",
+      "resolvedPath": "D:\\2025_UCCI\\CHANCHOFINAL\\ECODASH_6000_6_0f1\\Library\\PackageCache\\com.unity.editorcoroutines@8cd72baa102a",
+      "fingerprint": "8cd72baa102a75e5631acf0fb191d95423f2cb07",
+      "version": "6.6.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.settings-manager@2.1.1": {
+      "name": "com.unity.settings-manager",
+      "displayName": "Settings Manager",
+      "resolvedPath": "D:\\2025_UCCI\\CHANCHOFINAL\\ECODASH_6000_6_0f1\\Library\\PackageCache\\com.unity.settings-manager@0b8638c5ce86",
+      "fingerprint": "0b8638c5ce86009d785da17b17aaf629047f64ce",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "2.1.1",
+      "source": "registry",
+      "testable": false
+    }
+  }
+}

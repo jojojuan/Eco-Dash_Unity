@@ -1,0 +1,865 @@
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 10136)
+VBCSCompiler prewarm took 39.13 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-HP" at "2026-10-09T01:05:50.0076991Z"
+Built from '6000.6/respin/6000.6.0f1-fa21a270ab12' branch; Version is '6000.6.0f1 (f7f8ed4d1e24) revision 16251117'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) ProfessionalWorkstation' Language: 'es' Physical Memory: 32539 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-09T01:05:50Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Unity.exe
+-projectpath
+D:\2025_UCCI\CHANCHOFINAL\ECODASH_6000_6_0f1
+-acceptSoftwareTermsForThisRunOnly
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-HP
+-hubSessionId
+51443236-4699-4efc-9afb-141d7cb73430
+-accessToken
+tr1Vjzx8EyU5vMssIEftcYZJGext739bQIeLDQ3F_aU004f
+Successfully changed project path to: D:\2025_UCCI\CHANCHOFINAL\ECODASH_6000_6_0f1
+D:/2025_UCCI/CHANCHOFINAL/ECODASH_6000_6_0f1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [19708]  Target information:
+
+Player connection [19708]  * "[IP] 192.168.217.1 [Port] 55504 [Flags] 2 [Guid] 4085036351 [EditorId] 4085036351 [Version] 1048832 [Id] WindowsEditor(7,LAP-ZHP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [19708]  * "[IP] 192.168.159.1 [Port] 55504 [Flags] 2 [Guid] 4085036351 [EditorId] 4085036351 [Version] 1048832 [Id] WindowsEditor(7,LAP-ZHP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [19708]  * "[IP] 172.17.32.1 [Port] 55504 [Flags] 2 [Guid] 4085036351 [EditorId] 4085036351 [Version] 1048832 [Id] WindowsEditor(7,LAP-ZHP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [19708]  * "[IP] 192.168.1.37 [Port] 55504 [Flags] 2 [Guid] 4085036351 [EditorId] 4085036351 [Version] 1048832 [Id] WindowsEditor(7,LAP-ZHP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [19708] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [19708] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-20748" after 0.4 seconds.
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.3'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-HP"
+[Licensing::IpcConnector] LicenseClient-HP channel disconnected successfully.
+[Licensing::IpcConnector] Channel LicenseClient-HP-6000.6.0 doesn't exist
+[Licensing::Module] Successfully launched the LicensingClient (PId: 20556)
+Starting IPC server.
+Waiting for clients to connect on \\.\pipe\Unity-LicenseClient-HP-6000.6.0, press Ctrl-C to exit.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-HP-6000.6.0" at "2026-10-09T01:05:52.9563293Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 20556, path: "C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              ff9332d082c94fd7a94ed45fb7562925
+  Correlation Id:          dd5aea4828e13477c6fb4cdba3c8525e
+  External correlation Id: 1155720495075329890
+  Machine Id:              gvDnXopYnrcYe0f2iyvVzqBCzI0=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-HP-6000.6.0" (connect: 0.57s, validation: 0.25s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-HP-6000.6.0-notifications" at "2026-10-09T01:05:53.2253722Z"
+[Licensing::Module] Connected to LicensingClient (PId: 20556, launch time: 0.01, total connection time: 0.83s)
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token tr1Vjzx8Ey...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 4673906741375-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 3.28s
+[Licensing::Module] Licensing is initialized (took 2.57s).
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: 65e4d9974db24f4c52813e31d18a6543
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: false
+Launching Unity Data Store - C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Tools/Unity.DataStore.exe 
+Unity Data Store artifact dir = Library/DataStore, working dir = D:/2025_UCCI/CHANCHOFINAL/ECODASH_6000_6_0f1[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Unity Data Store running and initialised
+Initialize engine version: 6000.6.0f1 (f7f8ed4d1e24)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/2025_UCCI/CHANCHOFINAL/ECODASH_6000_6_0f1/Assets
+[D3D12 Device Filter] Vendor Name: NVIDIA
+[D3D12 Device Filter] Device Name: NVIDIA Quadro RTX 5000 with Max-Q Design
+[D3D12 Device Filter] Driver Version: 32.0.15.9595
+[D3D12 Device Filter] Feature Level: 12.2
+[D3D12 Device Filter] Graphics Memory: 16147 MB
+[D3D12 Device Filter] Processor Count: 16
+[D3D12 Device Filter] Device Type: Discrete
+GfxDevice: creating device client; kGfxThreadingModeSplitJobs
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA Quadro RTX 5000 with Max-Q Design (ID=0x1eb5)
+    Vendor:          NVIDIA
+    VRAM:            16147 MB
+    App VRAM Budget: 15379 MB
+    Driver:          32.0.15.9595
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56748
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009160 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.876 seconds
+Domain Reload Profiling: 2947ms
+	BeginReloadAssembly (249ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (11ms)
+	RebuildNativeTypeToScriptingClass (46ms)
+	initialDomainReloadingComplete (174ms)
+	LoadAllAssembliesAndSetupDomain (588ms)
+		LoadAssemblies (232ms)
+		TypeCache.Refresh (423ms)
+			TypeCache.ScanAssembly (398ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (1878ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (198ms)
+			ProcessInitializeOnLoadAttributes (197ms)
+			ProcessInitializeOnLoadMethodAttributes (1032ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 17 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.connect.share@4.2.4 (location: D:\2025_UCCI\CHANCHOFINAL\ECODASH_6000_6_0f1\Library\PackageCache\com.unity.connect.share@26544eac5181)
+    com.unity.inputsystem@1.20.1 (location: D:\2025_UCCI\CHANCHOFINAL\ECODASH_6000_6_0f1\Library\PackageCache\com.unity.inputsystem@2436e68c60c4)
+    com.unity.settings-manager@2.1.1 (location: D:\2025_UCCI\CHANCHOFINAL\ECODASH_6000_6_0f1\Library\PackageCache\com.unity.settings-manager@0b8638c5ce86)
+  Built-in packages:
+    com.unity.2d.sprite@1.0.0 (location: D:\2025_UCCI\CHANCHOFINAL\ECODASH_6000_6_0f1\Library\PackageCache\com.unity.2d.sprite@947350d67f82)
+    com.unity.ugui@2.6.0 (location: D:\2025_UCCI\CHANCHOFINAL\ECODASH_6000_6_0f1\Library\PackageCache\com.unity.ugui@23caec89ae27)
+    com.unity.modules.animation@1.0.0 (location: D:\2025_UCCI\CHANCHOFINAL\ECODASH_6000_6_0f1\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.audio@1.0.0 (location: D:\2025_UCCI\CHANCHOFINAL\ECODASH_6000_6_0f1\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.imageconversion@1.0.0 (location: D:\2025_UCCI\CHANCHOFINAL\ECODASH_6000_6_0f1\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: D:\2025_UCCI\CHANCHOFINAL\ECODASH_6000_6_0f1\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: D:\2025_UCCI\CHANCHOFINAL\ECODASH_6000_6_0f1\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.physics2d@1.0.0 (location: D:\2025_UCCI\CHANCHOFINAL\ECODASH_6000_6_0f1\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.ui@1.0.0 (location: D:\2025_UCCI\CHANCHOFINAL\ECODASH_6000_6_0f1\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: D:\2025_UCCI\CHANCHOFINAL\ECODASH_6000_6_0f1\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.hierarchycore@1.0.0 (location: D:\2025_UCCI\CHANCHOFINAL\ECODASH_6000_6_0f1\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.modules.physics@1.0.0 (location: D:\2025_UCCI\CHANCHOFINAL\ECODASH_6000_6_0f1\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physicscore2d@1.0.0 (location: D:\2025_UCCI\CHANCHOFINAL\ECODASH_6000_6_0f1\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.editorcoroutines@6.6.0 (location: D:\2025_UCCI\CHANCHOFINAL\ECODASH_6000_6_0f1\Library\PackageCache\com.unity.editorcoroutines@8cd72baa102a)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.02 seconds
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/2000b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: D:/2025_UCCI/CHANCHOFINAL/ECODASH_6000_6_0f1
+ExitCode: 4 Duration: 0s88ms
+[             ] Require frontend run.  Library/Bee/2000b0aE.dag couldn't be loaded
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\DotNetSdk\dotnet.exe "C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\Tools\BuildPipeline\ScriptCompilationBuildProgram.exe" "Library/Bee/2000b0aE.dag.json" "Library/Bee/2000b0aE-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+WorkingDir: D:/2025_UCCI/CHANCHOFINAL/ECODASH_6000_6_0f1
+ExitCode: 0 Duration: 0s837ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/2000b0aE.dag" --continue-on-failure --dagfilejson="Library\Bee\2000b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+WorkingDir: D:/2025_UCCI/CHANCHOFINAL/ECODASH_6000_6_0f1
+ExitCode: 0 Duration: 15s
+Finished compiling graph: 350 nodes, 3803 flattened edges (3473 ToBuild, 34 ToUse), maximum node priority 208
+[  1/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/UnityEngine.UI.rsp2
+[  3/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/UnityEngine.UI.UnityAdditionalFile.txt
+[144/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/UnityEditor.UI.rsp2
+[155/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/UnityEngine.UI.dll.mvfrm.rsp
+[160/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/UnityEngine.UI.rsp
+[166/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/UnityEditor.UI.UnityAdditionalFile.txt
+[167/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/UnityEditor.UI.dll.mvfrm.rsp
+[168/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/UnityEditor.UI.rsp
+[169/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.InputSystem.UnityAdditionalFile.txt
+[170/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.InputSystem.dll.mvfrm.rsp
+[171/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.InternalAPIEngineBridge.004.rsp
+[172/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.InternalAPIEngineBridge.004.rsp2
+[173/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.TextMeshPro.UnityAdditionalFile.txt
+[174/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.InternalAPIEngineBridge.004.UnityAdditionalFile.txt
+[175/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.InputSystem.rsp2
+[176/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.InternalAPIEngineBridge.004.dll.mvfrm.rsp
+[177/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.InputSystem.rsp
+[178/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.TextMeshPro.rsp2
+[179/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.InputSystem.ForUI.rsp2
+[180/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.EditorCoroutines.Editor.rsp2
+[181/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.EditorCoroutines.Editor.UnityAdditionalFile.txt
+[182/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.Settings.Editor.UnityAdditionalFile.txt
+[183/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.InternalAPIEditorBridgeDev.001.UnityAdditionalFile.txt
+[184/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.InternalAPIEditorBridgeDev.001.rsp2
+[185/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.Settings.Editor.rsp2
+[186/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.TextMeshPro.dll.mvfrm.rsp
+[187/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.InputSystem.ForUI.UnityAdditionalFile.txt
+[188/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.InputSystem.ForUI.dll.mvfrm.rsp
+[189/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.Settings.Editor.dll.mvfrm.rsp
+[190/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.InternalAPIEditorBridgeDev.001.dll.mvfrm.rsp
+[191/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.TextMeshPro.rsp
+[192/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.EditorCoroutines.Editor.rsp
+[193/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.EditorCoroutines.Editor.dll.mvfrm.rsp
+[194/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.InputSystem.ForUI.rsp
+[195/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.TextMeshPro.Editor.rsp2
+[196/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.2D.Sprite.Editor.UnityAdditionalFile.txt
+[197/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.InternalAPIEditorBridgeDev.001.rsp
+[198/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.Settings.Editor.rsp
+[199/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.2D.Sprite.Editor.rsp2
+[200/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.Play.Publisher.Editor.UnityAdditionalFile.txt
+[201/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.InputSystem.ForUI.Editor.rsp2
+[202/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.InputSystem.ForUI.Editor.UnityAdditionalFile.txt
+[203/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/UnityEditor.UI.Analytics.UnityAdditionalFile.txt
+[204/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.Play.Publisher.Editor.rsp2
+[205/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/UnityEditor.UI.Analytics.rsp2
+[206/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.TextMeshPro.Editor.dll.mvfrm.rsp
+[207/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.Play.Publisher.Editor.dll.mvfrm.rsp
+[208/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.TextMeshPro.Editor.UnityAdditionalFile.txt
+[209/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.InputSystem.ForUI.Editor.dll.mvfrm.rsp
+[210/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.2D.Sprite.Editor.dll.mvfrm.rsp
+[211/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/UnityEditor.UI.Analytics.dll.mvfrm.rsp
+[212/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.2D.Sprite.Editor.rsp
+[213/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.InputSystem.ForUI.Editor.rsp
+[214/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.TextMeshPro.Editor.rsp
+[215/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.Play.Publisher.Editor.rsp
+[216/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.rsp2
+[217/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/UnityEditor.UI.Analytics.rsp
+[218/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.InputSystem.DocCodeSamples.dll.mvfrm.rsp
+[219/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.rsp
+[220/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp
+[221/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.UnityAdditionalFile.txt
+[222/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.InputSystem.DocCodeSamples.UnityAdditionalFile.txt
+[223/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp-Editor.UnityAdditionalFile.txt
+[224/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp-Editor.rsp2
+[225/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp-Editor.dll.mvfrm.rsp
+[226/347    0s] WriteResponseFile Library/Bee/artifacts/rsp/10376552923787358332.rsp
+[227/347    0s] WriteResponseFile Library/Bee/artifacts/rsp/4578819986643379617.rsp
+[228/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.InputSystem.DocCodeSamples.rsp2
+[229/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Unity.InputSystem.DocCodeSamples.rsp
+[230/347    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp-Editor.rsp
+[231/347    0s] WriteResponseFile Library/Bee/artifacts/rsp/3729887623031042230.rsp
+[232/347    0s] WriteResponseFile Library/Bee/artifacts/rsp/9594543228266602487.rsp
+[233/347    0s] WriteResponseFile Library/Bee/artifacts/rsp/3037372816226278216.rsp
+[234/347    0s] WriteResponseFile Library/Bee/artifacts/rsp/8542837875481535423.rsp
+[235/347    0s] WriteResponseFile Library/Bee/artifacts/rsp/10017656952941242526.rsp
+[236/347    0s] WriteResponseFile Library/Bee/artifacts/rsp/10704195265997544070.rsp
+[237/347    0s] WriteResponseFile Library/Bee/artifacts/rsp/5622266516000910904.rsp
+[238/347    0s] WriteResponseFile Library/Bee/artifacts/rsp/5094194044562797102.rsp
+[239/347    0s] WriteResponseFile Library/Bee/artifacts/rsp/1153222045816729849.rsp
+[240/347    0s] WriteResponseFile Library/Bee/artifacts/rsp/3783833537839674236.rsp
+[241/347    0s] WriteResponseFile Library/Bee/artifacts/rsp/10885039498462050167.rsp
+[242/347    0s] WriteResponseFile Library/Bee/artifacts/rsp/7668679593555154362.rsp
+[243/347    0s] WriteResponseFile Library/Bee/artifacts/rsp/15558771200240688268.rsp
+[244/347    0s] WriteResponseFile Library/Bee/artifacts/rsp/5427167397233511250.rsp
+[245/347    0s] WriteResponseFile Library/Bee/artifacts/rsp/12301629935973794103.rsp
+[246/347    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.WebGLModule.dll_DE4E8CA1A102AB49.mvfrm
+[247/347    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[248/347    0s] MovedFromExtractor-Combine Library/Bee/artifacts/2000b0aE.dag/UnityEngine.UI.dll.mvfrm
+[           0s] Csc Library/Bee/artifacts/2000b0aE.dag/UnityEngine.UI.dll (+2 others) [CacheMiss 8b0192ef697c392cb97f72897984a4c700000000000000000000000000000006]
+[249/347    2s] Csc Library/Bee/artifacts/2000b0aE.dag/UnityEngine.UI.dll (+2 others)
+[           0s] Csc Library/Bee/artifacts/2000b0aE.dag/UnityEngine.UI.dll (+2 others) [CacheWrite 8b0192ef697c392cb97f72897984a4c700000000000000000000000000000006]
+[250/347    0s] ILPostProcess Library/Bee/artifacts/2000b0aE.dag/post-processed/UnityEngine.UI.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2000b0aE.dag/UnityEngine.UI.dll, with 130 defines and 258 references
+
+processors: zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+[251/347    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_7A28423D4A766FDA.mvfrm
+[252/347    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.UI.pdb
+[253/347    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.UI.dll
+[254/347    0s] MovedFromExtractor-Combine Library/Bee/artifacts/2000b0aE.dag/UnityEditor.UI.dll.mvfrm
+[           0s] Csc Library/Bee/artifacts/2000b0aE.dag/UnityEditor.UI.dll (+2 others) [CacheMiss 742d55ae754885e4b3a08848980efd5d00000000000000000000000000000006]
+[255/347    0s] Csc Library/Bee/artifacts/2000b0aE.dag/UnityEditor.UI.dll (+2 others)
+[           0s] Csc Library/Bee/artifacts/2000b0aE.dag/UnityEditor.UI.dll (+2 others) [CacheWrite 742d55ae754885e4b3a08848980efd5d00000000000000000000000000000006]
+[256/347    0s] ILPostProcess Library/Bee/artifacts/2000b0aE.dag/post-processed/UnityEditor.UI.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2000b0aE.dag/UnityEditor.UI.dll, with 126 defines and 297 references
+
+processors: zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+[257/347    0s] CopyFiles Library/ScriptAssemblies/UnityEditor.UI.dll
+[258/347    0s] CopyFiles Library/ScriptAssemblies/UnityEditor.UI.pdb
+[259/347    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.UI.ref.dll_BDC26BE24454476F.mvfrm
+[260/347    0s] MovedFromExtractor-Combine Library/Bee/artifacts/2000b0aE.dag/Unity.InputSystem.dll.mvfrm
+[261/347    0s] MovedFromExtractor-Combine Library/Bee/artifacts/2000b0aE.dag/Unity.EditorCoroutines.Editor.dll.mvfrm
+[262/347    0s] MovedFromExtractor-Combine Library/Bee/artifacts/2000b0aE.dag/Unity.Settings.Editor.dll.mvfrm
+[263/347    0s] MovedFromExtractor-Combine Library/Bee/artifacts/2000b0aE.dag/Unity.2D.Sprite.Editor.dll.mvfrm
+[264/347    0s] MovedFromExtractor-Combine Library/Bee/artifacts/2000b0aE.dag/Unity.InternalAPIEditorBridgeDev.001.dll.mvfrm
+[265/347    0s] MovedFromExtractor-Combine Library/Bee/artifacts/2000b0aE.dag/Unity.InternalAPIEngineBridge.004.dll.mvfrm
+[           0s] Csc Library/Bee/artifacts/2000b0aE.dag/Unity.InputSystem.dll (+2 others) [CacheMiss f1edcd2f1bfed4318eed865e223f664800000000000000000000000000000006]
+[           0s] Csc Library/Bee/artifacts/2000b0aE.dag/Unity.EditorCoroutines.Editor.dll (+2 others) [CacheMiss f8adb3244e4dcb4c1160631c9e0dd91700000000000000000000000000000006]
+[           0s] Csc Library/Bee/artifacts/2000b0aE.dag/Unity.2D.Sprite.Editor.dll (+2 others) [CacheMiss 8f15b3e1e8c702c06d66f3df5262e38400000000000000000000000000000006]
+[           0s] Csc Library/Bee/artifacts/2000b0aE.dag/Unity.Settings.Editor.dll (+2 others) [CacheMiss c4324d24e47ee1026d09e0fb1a38311d00000000000000000000000000000006]
+[           0s] Csc Library/Bee/artifacts/2000b0aE.dag/Unity.InternalAPIEditorBridgeDev.001.dll (+2 others) [CacheMiss 219a2342a0a00a009448e1d5712bf71e00000000000000000000000000000006]
+[           0s] Csc Library/Bee/artifacts/2000b0aE.dag/Unity.InternalAPIEngineBridge.004.dll (+2 others) [CacheMiss 3f820c411edd84977cdb3f321ea0130700000000000000000000000000000006]
+[266/347    0s] Csc Library/Bee/artifacts/2000b0aE.dag/Unity.InternalAPIEditorBridgeDev.001.dll (+2 others)
+[267/347    0s] Csc Library/Bee/artifacts/2000b0aE.dag/Unity.EditorCoroutines.Editor.dll (+2 others)
+[           0s] Csc Library/Bee/artifacts/2000b0aE.dag/Unity.EditorCoroutines.Editor.dll (+2 others) [CacheWrite f8adb3244e4dcb4c1160631c9e0dd91700000000000000000000000000000006]
+[268/347    0s] Csc Library/Bee/artifacts/2000b0aE.dag/Unity.InternalAPIEngineBridge.004.dll (+2 others)
+[           0s] Csc Library/Bee/artifacts/2000b0aE.dag/Unity.InternalAPIEditorBridgeDev.001.dll (+2 others) [CacheWrite 219a2342a0a00a009448e1d5712bf71e00000000000000000000000000000006]
+[           0s] Csc Library/Bee/artifacts/2000b0aE.dag/Unity.InternalAPIEngineBridge.004.dll (+2 others) [CacheWrite 3f820c411edd84977cdb3f321ea0130700000000000000000000000000000006]
+[269/347    0s] ILPostProcess Library/Bee/artifacts/2000b0aE.dag/post-processed/Unity.EditorCoroutines.Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2000b0aE.dag/Unity.EditorCoroutines.Editor.dll, with 123 defines and 298 references
+
+processors: zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+[270/347    0s] ILPostProcess Library/Bee/artifacts/2000b0aE.dag/post-processed/Unity.InternalAPIEditorBridgeDev.001.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2000b0aE.dag/Unity.InternalAPIEditorBridgeDev.001.dll, with 123 defines and 298 references
+
+processors: zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+[271/347    0s] Csc Library/Bee/artifacts/2000b0aE.dag/Unity.Settings.Editor.dll (+2 others)
+[272/347    0s] CopyFiles Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
+[273/347    0s] CopyFiles Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.pdb
+[274/347    0s] ILPostProcess Library/Bee/artifacts/2000b0aE.dag/post-processed/Unity.InternalAPIEngineBridge.004.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2000b0aE.dag/Unity.InternalAPIEngineBridge.004.dll, with 125 defines and 260 references
+
+processors: zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+[275/347    0s] CopyFiles Library/ScriptAssemblies/Unity.InternalAPIEditorBridgeDev.001.dll
+[276/347    0s] CopyFiles Library/ScriptAssemblies/Unity.InternalAPIEditorBridgeDev.001.pdb
+[277/347    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.EditorCoroutines.Editor.ref.dll_63B9EB35A0645901.mvfrm
+[           0s] Csc Library/Bee/artifacts/2000b0aE.dag/Unity.Settings.Editor.dll (+2 others) [CacheWrite c4324d24e47ee1026d09e0fb1a38311d00000000000000000000000000000006]
+[278/347    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.InternalAPIEditorBridgeDev.001.ref.dll_51D023F1F870353D.mvfrm
+[279/347    0s] CopyFiles Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.004.dll
+[280/347    0s] CopyFiles Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.004.pdb
+[281/347    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.InternalAPIEngineBridge.004.ref.dll_3585EADC0DC70DCC.mvfrm
+[282/347    0s] ILPostProcess Library/Bee/artifacts/2000b0aE.dag/post-processed/Unity.Settings.Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2000b0aE.dag/Unity.Settings.Editor.dll, with 123 defines and 298 references
+
+processors: zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+[283/347    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Settings.Editor.ref.dll_77A5373D6A1F93D6.mvfrm
+[284/347    0s] CopyFiles Library/ScriptAssemblies/Unity.Settings.Editor.pdb
+[285/347    0s] CopyFiles Library/ScriptAssemblies/Unity.Settings.Editor.dll
+[286/347    0s] MovedFromExtractor-Combine Library/Bee/artifacts/2000b0aE.dag/Unity.TextMeshPro.dll.mvfrm
+[           0s] Csc Library/Bee/artifacts/2000b0aE.dag/Unity.TextMeshPro.dll (+2 others) [CacheMiss 7b40fccf92e21b33789af4622c2a9a8f00000000000000000000000000000006]
+[287/347    0s] MovedFromExtractor-Combine Library/Bee/artifacts/2000b0aE.dag/Unity.Play.Publisher.Editor.dll.mvfrm
+[           0s] Csc Library/Bee/artifacts/2000b0aE.dag/Unity.Play.Publisher.Editor.dll (+2 others) [CacheMiss 75e15f77ad1e90e6c584c1f0e72aa97b00000000000000000000000000000006]
+[288/347    1s] Csc Library/Bee/artifacts/2000b0aE.dag/Unity.2D.Sprite.Editor.dll (+2 others)
+[           0s] Csc Library/Bee/artifacts/2000b0aE.dag/Unity.2D.Sprite.Editor.dll (+2 others) [CacheWrite 8f15b3e1e8c702c06d66f3df5262e38400000000000000000000000000000006]
+[289/347    0s] ILPostProcess Library/Bee/artifacts/2000b0aE.dag/post-processed/Unity.2D.Sprite.Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2000b0aE.dag/Unity.2D.Sprite.Editor.dll, with 123 defines and 298 references
+
+processors: zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+[290/347    0s] CopyFiles Library/ScriptAssemblies/Unity.2D.Sprite.Editor.pdb
+[291/347    0s] CopyFiles Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll
+[292/347    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.2D.Sprite.Editor.ref.dll_493FFFF13AE54DA2.mvfrm
+[293/347    0s] Csc Library/Bee/artifacts/2000b0aE.dag/Unity.Play.Publisher.Editor.dll (+2 others)
+[           0s] Csc Library/Bee/artifacts/2000b0aE.dag/Unity.Play.Publisher.Editor.dll (+2 others) [CacheWrite 75e15f77ad1e90e6c584c1f0e72aa97b00000000000000000000000000000006]
+[294/347    0s] ILPostProcess Library/Bee/artifacts/2000b0aE.dag/post-processed/Unity.Play.Publisher.Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2000b0aE.dag/Unity.Play.Publisher.Editor.dll, with 123 defines and 301 references
+
+processors: zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+[295/347    0s] CopyFiles Library/ScriptAssemblies/Unity.Play.Publisher.Editor.pdb
+[296/347    0s] CopyFiles Library/ScriptAssemblies/Unity.Play.Publisher.Editor.dll
+[297/347    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Play.Publisher.Editor.ref.dll_371D71BAB5D6AD97.mvfrm
+[298/347    3s] Csc Library/Bee/artifacts/2000b0aE.dag/Unity.TextMeshPro.dll (+2 others)
+[           0s] Csc Library/Bee/artifacts/2000b0aE.dag/Unity.TextMeshPro.dll (+2 others) [CacheWrite 7b40fccf92e21b33789af4622c2a9a8f00000000000000000000000000000006]
+[299/347    0s] ILPostProcess Library/Bee/artifacts/2000b0aE.dag/post-processed/Unity.TextMeshPro.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2000b0aE.dag/Unity.TextMeshPro.dll, with 126 defines and 261 references
+
+processors: zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+[300/347    0s] CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.pdb
+[301/347    0s] CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.dll
+[302/347    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.TextMeshPro.ref.dll_3701448EC0EF5C81.mvfrm
+[303/347    0s] MovedFromExtractor-Combine Library/Bee/artifacts/2000b0aE.dag/Unity.TextMeshPro.Editor.dll.mvfrm
+[304/347    0s] MovedFromExtractor-Combine Library/Bee/artifacts/2000b0aE.dag/UnityEditor.UI.Analytics.dll.mvfrm
+[           0s] Csc Library/Bee/artifacts/2000b0aE.dag/Unity.TextMeshPro.Editor.dll (+2 others) [CacheMiss 558d39ad10d132182314e7da7396a6ca00000000000000000000000000000006]
+[           0s] Csc Library/Bee/artifacts/2000b0aE.dag/UnityEditor.UI.Analytics.dll (+2 others) [CacheMiss d8b1325a077281fde9c20034c2e4f6b000000000000000000000000000000006]
+[305/347    0s] Csc Library/Bee/artifacts/2000b0aE.dag/UnityEditor.UI.Analytics.dll (+2 others)
+[           0s] Csc Library/Bee/artifacts/2000b0aE.dag/UnityEditor.UI.Analytics.dll (+2 others) [CacheWrite d8b1325a077281fde9c20034c2e4f6b000000000000000000000000000000006]
+[306/347    0s] ILPostProcess Library/Bee/artifacts/2000b0aE.dag/post-processed/UnityEditor.UI.Analytics.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2000b0aE.dag/UnityEditor.UI.Analytics.dll, with 123 defines and 299 references
+
+processors: zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+[307/347    0s] CopyFiles Library/ScriptAssemblies/UnityEditor.UI.Analytics.dll
+[308/347    0s] CopyFiles Library/ScriptAssemblies/UnityEditor.UI.Analytics.pdb
+[309/347    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.UI.Analytics.ref.dll_05D8213CEFDD7017.mvfrm
+[310/347    1s] Csc Library/Bee/artifacts/2000b0aE.dag/Unity.TextMeshPro.Editor.dll (+2 others)
+[           0s] Csc Library/Bee/artifacts/2000b0aE.dag/Unity.TextMeshPro.Editor.dll (+2 others) [CacheWrite 558d39ad10d132182314e7da7396a6ca00000000000000000000000000000006]
+[311/347    7s] Csc Library/Bee/artifacts/2000b0aE.dag/Unity.InputSystem.dll (+2 others)
+[312/347    0s] ILPostProcess Library/Bee/artifacts/2000b0aE.dag/post-processed/Unity.TextMeshPro.Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2000b0aE.dag/Unity.TextMeshPro.Editor.dll, with 123 defines and 299 references
+
+processors: zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+[313/347    0s] CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb
+[314/347    0s] CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+[315/347    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.TextMeshPro.Editor.ref.dll_E01181B6C057CE40.mvfrm
+[           0s] Csc Library/Bee/artifacts/2000b0aE.dag/Unity.InputSystem.dll (+2 others) [CacheWrite f1edcd2f1bfed4318eed865e223f664800000000000000000000000000000006]
+[316/347    0s] ILPostProcess Library/Bee/artifacts/2000b0aE.dag/post-processed/Unity.InputSystem.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2000b0aE.dag/Unity.InputSystem.dll, with 136 defines and 260 references
+
+processors: zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+[317/347    0s] CopyFiles Library/ScriptAssemblies/Unity.InputSystem.pdb
+[318/347    0s] CopyFiles Library/ScriptAssemblies/Unity.InputSystem.dll
+[319/347    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.InputSystem.ref.dll_AF8BE3CD1809BA27.mvfrm
+[320/347    0s] MovedFromExtractor-Combine Library/Bee/artifacts/2000b0aE.dag/Unity.InputSystem.ForUI.dll.mvfrm
+[321/347    0s] MovedFromExtractor-Combine Library/Bee/artifacts/2000b0aE.dag/Unity.InputSystem.DocCodeSamples.dll.mvfrm
+[           0s] Csc Library/Bee/artifacts/2000b0aE.dag/Unity.InputSystem.DocCodeSamples.dll (+2 others) [CacheMiss 412c20f02cbcdb57e61bc18e6b7cdc0600000000000000000000000000000006]
+[           0s] Csc Library/Bee/artifacts/2000b0aE.dag/Unity.InputSystem.ForUI.dll (+2 others) [CacheMiss a1bf3ad24e876bed13307bcf911ed7c200000000000000000000000000000006]
+[322/347    0s] Csc Library/Bee/artifacts/2000b0aE.dag/Unity.InputSystem.DocCodeSamples.dll (+2 others)
+[           0s] Csc Library/Bee/artifacts/2000b0aE.dag/Unity.InputSystem.DocCodeSamples.dll (+2 others) [CacheWrite 412c20f02cbcdb57e61bc18e6b7cdc0600000000000000000000000000000006]
+[323/347    0s] Csc Library/Bee/artifacts/2000b0aE.dag/Unity.InputSystem.ForUI.dll (+2 others)
+[           0s] Csc Library/Bee/artifacts/2000b0aE.dag/Unity.InputSystem.ForUI.dll (+2 others) [CacheWrite a1bf3ad24e876bed13307bcf911ed7c200000000000000000000000000000006]
+[324/347    0s] ILPostProcess Library/Bee/artifacts/2000b0aE.dag/post-processed/Unity.InputSystem.DocCodeSamples.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2000b0aE.dag/Unity.InputSystem.DocCodeSamples.dll, with 123 defines and 299 references
+
+processors: zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+[325/347    0s] CopyFiles Library/ScriptAssemblies/Unity.InputSystem.DocCodeSamples.dll
+[326/347    0s] CopyFiles Library/ScriptAssemblies/Unity.InputSystem.DocCodeSamples.pdb
+[327/347    0s] ILPostProcess Library/Bee/artifacts/2000b0aE.dag/post-processed/Unity.InputSystem.ForUI.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2000b0aE.dag/Unity.InputSystem.ForUI.dll, with 125 defines and 261 references
+
+processors: zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+[328/347    0s] CopyFiles Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll
+[329/347    0s] CopyFiles Library/ScriptAssemblies/Unity.InputSystem.ForUI.pdb
+[330/347    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.InputSystem.ForUI.ref.dll_7A6B648994A56256.mvfrm
+[331/347    0s] MovedFromExtractor-Combine Library/Bee/artifacts/2000b0aE.dag/Unity.InputSystem.ForUI.Editor.dll.mvfrm
+[           0s] Csc Library/Bee/artifacts/2000b0aE.dag/Unity.InputSystem.ForUI.Editor.dll (+2 others) [CacheMiss 2d20e311fedf26505172df687a53475b00000000000000000000000000000006]
+[332/347    0s] Csc Library/Bee/artifacts/2000b0aE.dag/Unity.InputSystem.ForUI.Editor.dll (+2 others)
+[           0s] Csc Library/Bee/artifacts/2000b0aE.dag/Unity.InputSystem.ForUI.Editor.dll (+2 others) [CacheWrite 2d20e311fedf26505172df687a53475b00000000000000000000000000000006]
+[333/347    0s] ILPostProcess Library/Bee/artifacts/2000b0aE.dag/post-processed/Unity.InputSystem.ForUI.Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2000b0aE.dag/Unity.InputSystem.ForUI.Editor.dll, with 123 defines and 300 references
+
+processors: zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+[334/347    0s] CopyFiles Library/ScriptAssemblies/Unity.InputSystem.ForUI.Editor.pdb
+[335/347    0s] CopyFiles Library/ScriptAssemblies/Unity.InputSystem.ForUI.Editor.dll
+[336/347    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.InputSystem.ForUI.Editor.ref.dll_256FC2E7E8C45CBB.mvfrm
+[337/347    0s] MovedFromExtractor-Combine Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.dll.mvfrm
+[338/347    0s] MovedFromExtractor-Combine Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp-Editor.dll.mvfrm
+[339/347    0s] Csc Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.dll (+2 others)
+Assets\Scripts\UiKit.cs(20,13): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Scripts\LevelController.cs(17,27): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Scripts\LevelController.cs(18,76): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\Scripts\LevelController.cs(18,47): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\Scripts\GameSession.cs(15,22): warning UAC1001: Field 'Result' type 'EcoDash.GameRules' is skipped by serialization (missing the [Serializable] attribute). Refer to the Serialization rules analyzer reference. (https://docs.unity3d.com/6000.6/Documentation/Manual/script-serialization-analyzer.html#uac1001)
+[340/347    0s] ILPostProcess Library/Bee/artifacts/2000b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.dll, with 125 defines and 269 references
+
+processors: zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+[341/347    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+[342/347    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[343/347    0s] Csc Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+Assets\Editor\EcoDashBuilder.cs(110,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+[344/347    0s] ILPostProcess Library/Bee/artifacts/2000b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp-Editor.dll, with 123 defines and 311 references
+
+processors: zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+[345/347    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[346/347    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (15.78 seconds), 186 items updated, 347 evaluated
+Assets\Scripts\UiKit.cs(20,13): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Scripts\LevelController.cs(17,27): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Scripts\LevelController.cs(18,76): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\Scripts\LevelController.cs(18,47): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\Scripts\GameSession.cs(15,22): warning UAC1001: Field 'Result' type 'EcoDash.GameRules' is skipped by serialization (missing the [Serializable] attribute). Refer to the Serialization rules analyzer reference. (https://docs.unity3d.com/6000.6/Documentation/Manual/script-serialization-analyzer.html#uac1001)
+Assets\Editor\EcoDashBuilder.cs(110,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+AssetDatabase: script compilation time: 18.035434s
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.187 seconds
+Domain Reload Profiling: 2501ms
+	BeginReloadAssembly (593ms)
+		DisableScriptedObjects (57ms)
+		CreateAndSetChildDomain (216ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (604ms)
+		LoadAssemblies (526ms)
+		TypeCache.Refresh (45ms)
+			TypeCache.ScanAssembly (35ms)
+		AnalyzeDomain (23ms)
+			BuildScriptInfoCaches (17ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1190ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (245ms)
+			ProcessInitializeOnLoadAttributes (330ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
+			AfterProcessingInitializeOnLoad (16ms)
+		AwakeInstancesAfterBackupRestoration (85ms)
+Starting new worker id: 0 with log in D:/2025_UCCI/CHANCHOFINAL/ECODASH_6000_6_0f1/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=100209dace0688c41908158e3cc723fa): Total: 20.983 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1444 ms
+		Asset DB Callback time: managed=57 ms, native=23 ms
+		Scripting: domain reloads=1, domain reload time=1388 ms, compile time=18043 ms, other=27 ms
+		Project Asset Count: scripts=294, non-scripts=407
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 26.266ms
+	ApplyChangesToAssetFolders: 0.579ms
+	Scan: 35.256ms
+	Collect global state as custom dependencies: 19.005ms
+	CategorizeScriptCompilationAssets: 4.383ms
+	ProcessAssetsWithTransientArtifactChanges: 35.602ms
+	CategorizeAssets: 14.315ms
+	CompileScripts: 18042.596ms
+	ImportOutOfDateAssets: 1203.431ms (1192.975ms without children)
+		UnloadImportedAssets: 0.138ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.245ms
+		ImportSchedulerStart: 10.068ms
+	PostProcessAllAssets: 57.753ms
+		MonoPostProcessAllAssets: 57.599ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 20.866ms
+			SyncVS.PostprocessSyncProject 6.062ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 2.050ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.430ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.681ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.608ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.553ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.400ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.325ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.169ms
+	UnloadStreamsBegin: 2.402ms
+	GenerateScriptTypeHashes: 4.367ms
+	GenerateScriptTypeSerializationHashes: 9.567ms
+	Untracked: 1533.188ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Scanning for USB devices : 3.451ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-ECODASH - Chanchito
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/01_LevelSelect.unity'
+	Deserialize:            4.100 ms
+	Integration:            24.010 ms
+	Integration of assets:  0.005 ms
+	Thread Wait Time:       0.086 ms
+	Total Operation Time:   28.201 ms
+Unloading 942 unused Assets / (0.5 MB). Loaded Objects now: 1677.
+Memory consumption went from 256.2 MB to 255.7 MB.
+Total: 15.559200 ms (FindLiveObjects: 0.481100 ms CreateObjectMapping: 0.080900 ms MarkObjects: 13.324100 ms  DeleteObjects: 0.998800 ms)
+
+[LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
+Worker ready: AssetImportWorkerHW0 0
+[LAYOUT] About to save layout D:\2025_UCCI\CHANCHOFINAL\ECODASH_6000_6_0f1\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/HP/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+This project uses Input Manager, which is marked for deprecation. To manage input in your project, use the <a href="https://docs.unity3d.com/Packages/com.unity.inputsystem@latest">Input System package</a> instead.
+<RI> Initializing input.
+Using Windows.Gaming.Input
+<RI> Input initialized.
+[Project] Loading completed in 36.452 seconds
+	Project init time: 				31.691 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		3.004 seconds
+		Asset Database init time: 		1.222 seconds
+		Global illumination init time: 	0.022 seconds
+		Assemblies load time: 			3.082 seconds
+		Unity extensions init time: 	0.009 seconds
+		Asset Database refresh time: 	20.984 seconds
+	Scene opening time: 			4.463 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1791507986394,"processId":20748,"projectLoad":36.4523355,"projectInit":31.6908046,"templateInit":0.0,"packageManagerInit":3.0040664,"assetDatabaseInit":1.2221003,"globalIlluminationInit":0.0219077,"assembliesLoad":3.0815652,"unityExtensionsInit":0.0090545,"assetDatabaseRefresh":20.9838947,"sceneOpening":4.4631533}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1791507986394,"processId":20748,"editorVersion":"6000.6.0f1 (f7f8ed4d1e24)","branch":"6000.6/respin/6000.6.0f1-fa21a270ab12","buildType":"Release","platform":"Windows"}
+Created GICache directory at C:/Users/HP/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.070s, timestamps: [37.314 - 37.384]
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "tr1Vjzx8"... (expires: 2026-10-09T03:04:19Z)
+[Licensing::Client] Successfully resolved entitlement details
+TrimDiskCacheJob: Current cache size 0mb
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Asset Pipeline Refresh (id=f21e633d0ec0daa42bffbb5a7488b171): Total: 0.038 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Starting new worker id: 1 with log in D:/2025_UCCI/CHANCHOFINAL/ECODASH_6000_6_0f1/Logs/AssetImportWorkerHW1.log
+Asset Pipeline Refresh (id=65945f0007bbbd341b52130964959bf5): Total: 0.005 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Worker0] Imported GUID: ea63d6ee76c21485a80bc82329768083 - Path: Packages/com.unity.connect.share/Editor/Resources/Dark/icon-success.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '72887f52f51cbfe9db5bd4c1571773c1') in 0.3231677 seconds
+Starting new worker id: 2 with log in D:/2025_UCCI/CHANCHOFINAL/ECODASH_6000_6_0f1/Logs/AssetImportWorkerHW2.log
+[Worker0] Imported GUID: 7ea67431821494cfca380c0e07258751 - Path: Packages/com.unity.settings-manager/Editor/Attributes.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '773bc8ed45d54ac2f758b775e4bc00e1') in 0.0171046 seconds
+[Worker0] Imported GUID: 28072c241772828498ecf2f5e4bd30ed - Path: Packages/com.unity.connect.share/Editor/Examples - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1ed43996d03c37577cc1c34189917546') in 0.0027527 seconds
+[Worker0] Imported GUID: ce04c23458879c24c96ce4016a58052c - Path: Packages/com.unity.connect.share/UI/Upload_Old.uss - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '27361bcd09b8a369e15d16c662b09d88') in 0.0828994 seconds
+[Worker0] Imported GUID: 7e833de4f2fd2d04c8eb8c52adebdf1f - Path: Packages/com.unity.connect.share/UI/Upload_Dark.uss - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd88e69194c742cd731c27d4b142a8d9e') in 0.0134965 seconds
+[Worker0] Imported GUID: 1b8280f6a72ca4f8fa0f1ee42063e3db - Path: Packages/com.unity.connect.share/Editor/Resources/Dark/icon-build-and-share.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ec32d247b1a321e9454d126377182b57') in 0.0255073 seconds
+[Worker0] Imported GUID: 54d222c5514cbad4a983168d99c24752 - Path: Packages/com.unity.connect.share/UI/Success.uss - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4470b71b5c67c83d732df9e7d7449c4e') in 0.008144 seconds
+[Worker0] Imported GUID: 3d9bd4cbe22e8472781b1cde707d154d - Path: Packages/com.unity.settings-manager/Content - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0eb7b17e8db1531cd0fcd1396dfead15') in 0.0043383 seconds
+[Worker0] Imported GUID: 3cf7079941bd1474092366576206bca9 - Path: Packages/com.unity.connect.share/Editor/Localization/Localization.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2d16ab78503c0e00921492bfc1955740') in 0.0055629 seconds
+[Worker0] Imported GUID: bcc207c98caf74325aab3d06172a76b3 - Path: Packages/com.unity.connect.share/Editor/Resources/Light/icon-build-and-share.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '019655caf8238c877688977bcf089e1e') in 0.0183643 seconds
+[Worker0] Imported GUID: 782207750f2154dd78aa85b97c1140d5 - Path: Packages/com.unity.connect.share/Editor/Resources/Dark/icon-delete@2x.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c72af8740d9efce6c41a765011f8e59c') in 0.0207973 seconds
+[Worker0] Imported GUID: 03641354487794246a0726e748b84376 - Path: Packages/com.unity.connect.share/Editor/Resources/Light/icon-delete.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9872455f35d85811d8ae6da2e1daa74d') in 0.021486 seconds
+[Worker0] Imported GUID: cbf0a0965e126c44bafa53250bfbb9fe - Path: Packages/com.unity.connect.share/Third Party Notices.md - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '51ed6e4fb724a3b1bc00be84d978d7e3') in 0.0060783 seconds
+[Worker0] Imported GUID: 9450b6763c8cb5543a6d0cc7d2417c00 - Path: Packages/com.unity.connect.share/UI/Success_Dark.uss - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6cd1900d0bced5fc8cd72f39e5d568de') in 0.0050471 seconds
+[Worker0] Imported GUID: ee8d5e0adc4921f478d04324a520e8f9 - Path: Packages/com.unity.connect.share/UI/Uploading_Dark.uss - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a67e3c0f8fe611dadce7ca5c172abcc4') in 0.0057816 seconds
+[Worker0] Imported GUID: 0e29bd623e0e94c1ca7dbeb1a52b7d8b - Path: Packages/com.unity.connect.share/Editor/Resources/Light/icon-error@2x.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b47c2fa591e2165f9951ad90f81a165c') in 0.0135626 seconds
+[Worker0] Imported GUID: e522c6bae10dabf4e910797f67168128 - Path: Packages/com.unity.connect.share/UI/Introduction.uxml - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '46149667e2ca8b606cf1908c1eb38e54') in 0.1499361 seconds
+[Worker0] Imported GUID: b8c9b6a82a342504c8e4a2747471d23c - Path: Packages/com.unity.settings-manager/Tests/Editor/Unity.Settings.Editor.Tests.asmdef - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a46b97d67d695ffb6c6b324091bb5988') in 0.0044706 seconds
+[Worker0] Imported GUID: 0cce7a31386ac214183e0a517da28aa4 - Path: Packages/com.unity.connect.share/UI/NoBuild_Dark.uss - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4f2cbfa242e9d623e931ad9f772623b3') in 0.0081734 seconds
+[Worker0] Imported GUID: c2910bfb37c064309a7230f4175d6c3a - Path: Packages/com.unity.settings-manager/Editor - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7c14df9ac22c29a8ca355d49c0911251') in 0.0022174 seconds
+[Worker0] Imported GUID: a9a06c5102291bb44abe5108e76e1f68 - Path: Packages/com.unity.connect.share/UI/Uploading.uxml - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd69614af045aa18d2bc6d8074480afd4') in 0.0132234 seconds
+[Worker0] Imported GUID: 49818357e697641afb75d2f8acaf1861 - Path: Packages/com.unity.settings-manager/Editor/Unity.Settings.Editor.asmdef - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8fc99244242cc8ce81f989adbb8201ca') in 0.0032157 seconds
+[Worker0] Imported GUID: 8707cf6fb25b1438b9a0f476f93a76fe - Path: Packages/com.unity.settings-manager/Editor/ISettingsRepository.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '978a0d8055d16295fbf4e5c74e81fdf9') in 0.0019891 seconds
+[Worker0] Imported GUID: 114c8fe82c43b4642b62fd7e37e4a074 - Path: Packages/com.unity.connect.share/UI/InstallWebGL_Dark.uss - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '846fb44a6a05ed23a98be95b5f211733') in 0.0037353 seconds
+[Worker0] Imported GUID: ee765bc466062524e92ed60b9839ccb8 - Path: Packages/com.unity.connect.share/Editor/AnalyticsHelper.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c8810cb81b9fe404387ab0b4b37982b8') in 0.0027384 seconds
+[Worker0] Imported GUID: f7f3465ef34b34633aea2c0de2e88bdb - Path: Packages/com.unity.connect.share/UI/MaterialIcons-Regular.ttf - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0df237db327a0be09ecb1578678adf28') in 0.0264326 seconds
+[Worker0] Imported GUID: 99508ba0ac74342d4afe093cdf1337d5 - Path: Packages/com.unity.connect.share/Editor/Resources/Dark/icon-settings@2x.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ceed9f11d5869cfbd4c1ffa22357177b') in 0.0167522 seconds
+[Worker0] Imported GUID: cbfa404c5e4f14565a439cb951f79d15 - Path: Packages/com.unity.connect.share/UI - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2ead1bbe8c681d7478d8d1f8cb79f784') in 0.002789 seconds
+[Worker0] Imported GUID: f24eb24bf74b948a68261a1a785f8059 - Path: Packages/com.unity.connect.share/Editor/Resources/Dark/icon-uploading@2x.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4cb36659dd1a9fedd22548d3b494c140') in 0.0152706 seconds
+[Worker0] Imported GUID: 921bfad97146a47e9a1f47226f104bf7 - Path: Packages/com.unity.connect.share/Plugins/System.IO.Compression.FileSystem.dll - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'bbbf5290706304383f67380d409bfd0d') in 0.0077321 seconds
+[Worker0] Imported GUID: 2bc70579a9c48584aac41fd2117d74f1 - Path: Packages/com.unity.connect.share/UI/Upload.uxml - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '90870d57a3fca147d04238bcdcb82cf0') in 0.0202015 seconds
+[Worker0] Imported GUID: 2d65bb50aabd144ed9c1a4c2bc6d072e - Path: Packages/com.unity.settings-manager/Editor/ValueWrapper.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '09b7fc8411e04da259e2eac91d8f0d21') in 0.0031701 seconds
+[Worker0] Imported GUID: 27ee675d6f587c949be1284160d66021 - Path: Packages/com.unity.connect.share/Editor/PublisherUtils.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2e543f62c57136bd872aa5d75d1967f2') in 0.0045295 seconds
+[Worker0] Imported GUID: 9fbf65382e9814cc3b72c20c932f9502 - Path: Packages/com.unity.connect.share/Editor/Resources/Light - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f0f120a62251caab377dd8b0536d8ff4') in 0.0062945 seconds
+[Worker0] Imported GUID: cc83c48483d854d4b9f0bef5a8e251fc - Path: Packages/com.unity.connect.share/Editor/Resources/Light/icon-build-and-share@2x.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '58291a426f8a5be12f50d73b2e104ee1') in 0.014726 seconds
+[Worker0] Imported GUID: 36850e138b753474ba4fbd1e927b44e4 - Path: Packages/com.unity.connect.share/UI/Error_Dark.uss - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b0123213b1cdc04e9a0eeefbdda4a1c1') in 0.0053489 seconds
+[Worker0] Imported GUID: 5f4768ac2bb8b814091c491453a78bd7 - Path: Packages/com.unity.connect.share/UI/Styles_Dark.uss - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1684827b58907b55fd72202cddb44a18') in 0.0110468 seconds
+[Worker0] Imported GUID: 8f491bec7bcc4db45ad9590a6158e0fd - Path: Packages/com.unity.settings-manager/Tests - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3e0e152fa91b240a32ead6db42b417a0') in 0.0045989 seconds
+[Worker0] Imported GUID: 42f62c1ef13374eb0bac6e8f2e7851ee - Path: Packages/com.unity.connect.share/Editor/InternalBridge - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '57c2267c1df3d2d13d336c2b5133717b') in 0.003982 seconds
+[Worker0] Imported GUID: 328933089d7d94167a53cf8033069bb8 - Path: Packages/com.unity.connect.share/Editor/Resources/Dark/icon-account@2x.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2e406094a26bd8274e6fe3c1def89de0') in 0.011571 seconds
+[Worker0] Imported GUID: 4c1027aa2c28f0844a1bde32d46b542b - Path: Packages/com.unity.connect.share/Editor/AssemblyInfo.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '69bbe4bcbba3c99d86cd1d3393b91fca') in 0.0037969 seconds
+[Worker0] Imported GUID: 7577de8f0225549f898e87c9ffa810d4 - Path: Packages/com.unity.connect.share/Editor/Resources/Light/icon-uploading@2x.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd74f6def17c999e1f5b3f0c301343392') in 0.0152265 seconds
+[Worker0] Imported GUID: fb4c51b410e0745d6a7916a3536367c1 - Path: Packages/com.unity.connect.share/Editor/InternalBridge/InternalBridge.asmdef - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5a72d8722e1dd1efb26e0b942a2ad55b') in 0.0034205 seconds
+[Worker0] Imported GUID: 804367c106b50411eb6bf790fd232ddc - Path: Packages/com.unity.connect.share/Editor/Resources/Dark/icon-folder.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5ddfc657edc90d005b0f325e1a455a0e') in 0.014015 seconds
+[Worker0] Imported GUID: 80c0ba612430d43068d76bca7b597c31 - Path: Packages/com.unity.connect.share/Editor/Resources/Light/icon-webgl-module@2x.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd8a8a83b2e686325f93787ac473fe8fd') in 0.0104437 seconds
+[Worker0] Imported GUID: 67c0fca06520e4f78923163f9541ba6c - Path: Packages/com.unity.settings-manager/Editor/SettingsDictionary.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'fab821c76270a328611e49b21281e50a') in 0.0035081 seconds
+[Worker0] Imported GUID: 6965211c873de4048aa9043e5e287c73 - Path: Packages/com.unity.settings-manager/Editor/UserSettingsRepository.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6aa82282b2ff2b3da827010bf73d9d96') in 0.0033453 seconds
+[Worker0] Imported GUID: 223e1a5330ab8468782152a65e857f94 - Path: Packages/com.unity.settings-manager/Editor/SettingsGUILayout.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1b394b972e5d659e9ccb6f0c977b4e0f') in 0.0032003 seconds
+[Worker0] Imported GUID: 8cd5a1fc1d674457198745a7b2fe8002 - Path: Packages/com.unity.connect.share/Editor/Resources/Light/icon-webgl-module.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '326053f962336f51bb22308c0e7aa70e') in 0.0134204 seconds
+[Worker0] Imported GUID: 4baf9d3a89175c143b9d1bb3e62526e7 - Path: Packages/com.unity.editorcoroutines/Editor - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2c2041b7620b11890bc0db424027644b') in 0.0027349 seconds
+[Worker0] Imported GUID: aaf2144695c2fef4fa79ffd12b93463a - Path: Packages/com.unity.connect.share/UI/Processing.uxml - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b5168a1144a18f1ca3326c9dbbe98c63') in 0.0131329 seconds
+[Worker0] Imported GUID: 333fbdb3effd24629b90715a89e6a893 - Path: Packages/com.unity.connect.share/Editor/Resources/Light/icon-processing@2x.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8299d78ad5b523056d3a2d31cd31446c') in 0.0142059 seconds
+[Worker0] Imported GUID: e6d97d1bfe7743348b9c03aaec7d6af3 - Path: Packages/com.unity.connect.share/Editor/Resources/Light/icon-account.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '20181dbab9564f863e1c41f036dc88de') in 0.0105138 seconds
+[Worker0] Imported GUID: ad7dc7ed9a67447fea6566ea37aed91a - Path: Packages/com.unity.connect.share/Editor/Redux/Store.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ff79fdb20522acf82961bcd6405bc590') in 0.0042289 seconds
+[Worker0] Imported GUID: 497b6304a0da2ca4f90bf6950cb4626a - Path: Packages/com.unity.connect.share/Editor/Localization/ko.po - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6b573d59f047f878cc5dac7a78f7570c') in 0.0048941 seconds
+[Worker0] Imported GUID: df4ebfb3d11874b50958a93894f83d04 - Path: Packages/com.unity.connect.share/Tests/Editor/Unity.Play.Publisher.Editor.Tests.asmdef - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6d8587eec0e7fb40e167a28eb313ae53') in 0.0055666 seconds
+[Worker0] Imported GUID: a12f78eb083e540568eb807f5ad16bfd - Path: Packages/com.unity.connect.share/Editor/Resources/Light/icon-settings.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4c33561a1fd82d4f9a6a0d948a9188d7') in 0.0096075 seconds
+[Worker0] Imported GUID: 478a2357cc57436488a56e564b08d223 - Path: Packages/com.unity.editorcoroutines/Editor/Unity.EditorCoroutines.Editor.asmdef - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c238153f5779449c5095e8a00b9b708a') in 0.0026568 seconds
+[Worker0] Imported GUID: 8ad6bf1c0fc246f40856d54e150e2f31 - Path: Packages/com.unity.connect.share/UI/Error.uss - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '361b41ae2d00f9ee07a13079a89ad678') in 0.0065267 seconds
+[Worker0] Imported GUID: d82887d4f37654e97b10bac4056a802c - Path: Packages/com.unity.connect.share/Editor/Resources/Light/icon-delete@2x.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '51564eb7334a758979752cbcf2ec3a11') in 0.0114312 seconds
+[Worker0] Imported GUID: 3f93931a6fe807b45809dbc0ddf91260 - Path: Packages/com.unity.editorcoroutines/Editor/EditorCoroutine.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b825164496f473853e23e609e3c29456') in 0.0029326 seconds
+[Worker0] Imported GUID: 9dba39e203d1795499d0eec0491608b4 - Path: Packages/com.unity.connect.share/Editor/Examples/PublisherExamples.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'bd087eb2227165be5a8a9b5f3f1bb3f7') in 0.0044549 seconds
+[Worker0] Imported GUID: afb215e1cde27a14aadc848ffe909297 - Path: Packages/com.unity.connect.share/UI/NoBuild.uss - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '93841b059a86d13aa3ba311937993815') in 0.0052354 seconds
+[Worker0] Imported GUID: 0846ad73a5274e88951b2645bf7dac6c - Path: Packages/com.unity.settings-manager/Editor/FileSettingsRepository.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'dee03b13f10fbe6728893d84e496ed39') in 0.0034563 seconds
+[Worker0] Imported GUID: 3ae5bdcaba3a7479db9d944b7fa58a86 - Path: Packages/com.unity.connect.share/Editor/Resources/Dark/icon-webgl-module@2x.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'bb592cba7d0020dcfcaf6d50d00de256') in 0.01994 seconds
+[Worker0] Imported GUID: 42b347357e10c0c46b8f9146e4d06a60 - Path: Packages/com.unity.connect.share/Editor/InternalBridge/LocalizationDatabaseBridge.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c3d998fea4ee3f985356abe00e8d8b53') in 0.0041443 seconds
+[Worker0] Imported GUID: 8cb9bcbe88e125e438dcad7e0d8961d6 - Path: Packages/com.unity.connect.share/UI/NotLoggedIn.uss - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '93f112052294d3c911fe43544ba9465c') in 0.0085191 seconds
+[Worker0] Imported GUID: 37c270a11c4e44223a69a029920b982e - Path: Packages/com.unity.connect.share/Editor - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '43b8cf5bb1173f4bc21464dc85082ec6') in 0.0030843 seconds
+[Worker0] Imported GUID: da1b1ec94c72348449fc753a1254b08d - Path: Packages/com.unity.connect.share/Editor/Resources/Dark/icon-success@2x.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '19b352f28a7aeb4e6e0250ecf07ed3e2') in 0.0119594 seconds
+[Worker0] Imported GUID: 7fd8423f910d2394b8580e2705aa247a - Path: Packages/com.unity.editorcoroutines/LICENSE.md - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'cdc542ee590b15d3101a332a465af50d') in 0.0043582 seconds
+[Worker0] Imported GUID: 6c2616217c8b549569db638c7e6eb870 - Path: Packages/com.unity.connect.share/Editor/Resources/Light/icon-settings@2x.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c030e72af81d4513c2431dc03d907305') in 0.0158133 seconds
+[Worker0] Imported GUID: 63ba8526e7bab4eb5b5eb6f1f058f6c5 - Path: Packages/com.unity.connect.share/Editor/Resources/Dark/icon-settings.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5fa0ffaf0c63487e02fb7ba82f2cd4b0') in 0.0166798 seconds
+[Worker0] Imported GUID: c618d212a631c448486320aa8c304bbf - Path: Packages/com.unity.connect.share/Editor/Resources/Light/icon-folder@2x.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd9a94f16c6cb67858bcd1deb2ad4d08d') in 0.0149664 seconds
+[Worker0] Imported GUID: 48eb972f5a647c788d39598c7989de84 - Path: Packages/com.unity.editorcoroutines - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c1157c8103db74de3d8c5b136226115b') in 0.0037638 seconds
+[Worker0] Imported GUID: 36f464910f2d741d8b2910370009fc82 - Path: Packages/com.unity.connect.share/Tests/Editor/PublisherTest.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '93c238d16c9c1f9766645ee538662cbc') in 0.0052973 seconds
+[Worker0] Imported GUID: 02f05451d06b3471d91adb97cef991c3 - Path: Packages/com.unity.connect.share/Tests - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e97ef208234bdee04e69bb5d3ba78617') in 0.0039219 seconds
+[Worker0] Imported GUID: 82012613d92bb08478e9a25392544f74 - Path: Packages/com.unity.connect.share/UI/Error.uxml - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a3d935d06c8a50b793fea45126809b3b') in 0.0173017 seconds
+[Worker0] Imported GUID: f5a05aafed833e4479ca4256ce437a87 - Path: Packages/com.unity.connect.share/UI/InstallWebGL.uxml - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '59529ca923925ce905b780334558fed6') in 0.0130139 seconds
+[Worker0] Imported GUID: d3c815396f3a64c2d925a2100e08e093 - Path: Packages/com.unity.settings-manager/Editor/Settings.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3f698b59dd05a3eb1b16f37021216a8e') in 0.0042046 seconds
+[Worker0] Imported GUID: ad34571c1c8d47f69e48865ba5a256d9 - Path: Packages/com.unity.settings-manager/Tests/Editor/TestProjectUserSettings.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'cae7eb6f3fb6550a0d32fcebcaa91b2b') in 0.0039328 seconds
+[Worker0] Imported GUID: a5f16865841af25a664519b1cadbba84 - Path: Packages/com.unity.connect.share - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a899fcd9ff7e6f0ef96fa48ce65d83ce') in 0.0037174 seconds
+[Worker0] Imported GUID: 9aadd94fafda7468393a84edf7b78e83 - Path: Packages/com.unity.connect.share/Editor/Resources/Dark/icon-account.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8fc4c7b02592ec79afbabc97e1f853be') in 0.0133221 seconds
+[Worker0] Imported GUID: f0a4d39ca541e4be996ea535446a0e68 - Path: Packages/com.unity.connect.share/UI/Styles.uss - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c538e3b90096c65ad636b87e3b2aabf5') in 0.0061984 seconds
+[Worker0] Imported GUID: f0a6df772e112498b8264d33c9210b9e - Path: Packages/com.unity.connect.share/README.md - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c1b44dc0fe91f8e51792c1a77184f15f') in 0.0033593 seconds
+[Worker0] Imported GUID: 96eed97af6e0f4c32a08f12ab21b1ac5 - Path: Packages/com.unity.connect.share/Plugins - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '255192ab2ffa2ae2c9faf1518b8a2175') in 0.0033597 seconds
+[Worker0] Imported GUID: 46efc35cc36b6f24b83d79778a041799 - Path: Packages/com.unity.connect.share/UI/NoBuild.uxml - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '82968599d6e0fb643ae809a7ffa27de9') in 0.0098747 seconds
+[Worker0] Imported GUID: df47e3e39c58b42039a8f3766bda837c - Path: Packages/com.unity.connect.share/Editor/Resources/Light/icon-uploading.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e1a246f1f2c774618d721c2056cc32a3') in 0.0106489 seconds
+[Worker0] Imported GUID: d1e5aca5bef6a2348ab5d94096155a6a - Path: Packages/com.unity.connect.share/Editor/PublisherSettingsManager.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4496c6fcf136564942d65c400a74844a') in 0.0028762 seconds
+[Worker0] Imported GUID: daa5472197472da459e5926a75ea6fbb - Path: Packages/com.unity.editorcoroutines/QAReport.md - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6c892a8ffe543211a65f2ad5e3c5c409') in 0.0033839 seconds
+[Worker0] Imported GUID: 9d91c9e943e8f4acc8a23d4133138a56 - Path: Packages/com.unity.connect.share/Editor/Resources/Light/icon-image.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '874c541744e451ff980a3b4278279607') in 0.0164404 seconds
+[Worker0] Imported GUID: 25449b12eeaec407a9808732c2e35e08 - Path: Packages/com.unity.connect.share/Editor/Redux/Reducer.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4e9bccbe9c44a747960f9b644fc02646') in 0.0027968 seconds
+[Worker0] Imported GUID: 2e6bc4f62fc9b488488b760d28ee5be5 - Path: Packages/com.unity.connect.share/Editor/Resources/Light/icon-processing.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '44f97b90e3d062a27f432a027426770b') in 0.017804 seconds
+[Worker0] Imported GUID: 9a9a6ccd71c6a4a408f5ea907002e68a - Path: Packages/com.unity.connect.share/Editor/Localization/zh-hant.po - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '82a52b6cd8dc3d07d6ecfec435b0eee3') in 0.0037782 seconds
+[Worker0] Imported GUID: 087be8c1503662144b530229dddcfce4 - Path: Packages/com.unity.editorcoroutines/Editor/EditorWaitForSeconds.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8cb2da26efdcc08cfcd2adbf9f2607e1') in 0.0058358 seconds
+[Worker0] Imported GUID: 11aab40bae0d491c94ca2df97f155bac - Path: Packages/com.unity.settings-manager/Tests/Editor/FileRepositoryTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7a6f0506ec5ecb0cfb0ae3eac4074981') in 0.003686 seconds
+[Worker0] Imported GUID: d0dbc4c831b624fffa41977688986840 - Path: Packages/com.unity.connect.share/Editor/Resources/Dark/icon-webgl-module.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'fa73f476fc9fe16ebd79ff3aabecf29a') in 0.0144959 seconds
+[Worker0] Imported GUID: 5673ee7089c391945a7de482b3cb6cf2 - Path: Packages/com.unity.connect.share/Editor/Resources/Light/icon-error.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b5bdc16b87ffde0b2a31f823827fe5ae') in 0.0097489 seconds
+[Worker0] Imported GUID: 062fa695962a58e40adaac11ad66e253 - Path: Packages/com.unity.connect.share/UI/Introduction.uss - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b81aa41b92cf0a39d562bdf2dd5cfe04') in 0.0096306 seconds
+[Worker0] Imported GUID: 767365db77168f744af8685807ad7f4b - Path: Packages/com.unity.settings-manager/Tests/Editor/SettingsTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '706d67ef8b96494a3bb685078b6099d7') in 0.0045479 seconds
+[Worker0] Imported GUID: 561e43493ab773746acefbe0f624795e - Path: Packages/com.unity.settings-manager/README.md - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'bec35569f8f0b974cb03c0d67922b101') in 0.003723 seconds
+[Worker0] Imported GUID: 149cad238efed4f53ac932b1e9555356 - Path: Packages/com.unity.connect.share/Editor/Unity.Play.Publisher.Editor.asmdef - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5fe8bb82558a5c6977838b1c2a32c284') in 0.0028386 seconds
+[Worker0] Imported GUID: fab26541b94409f469c7f84cd06150cb - Path: Packages/com.unity.connect.share/UI/InstallWebGL.uss - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '536ffe6c879cc0919981c8b5fe080517') in 0.0067343 seconds
+[Worker0] Imported GUID: cfc41b443e60f4d7b8497974ab8b5045 - Path: Packages/com.unity.connect.share/Editor/Resources/Light/icon-account@2x.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd93f1f72993d2261eb41d322a7028e88') in 0.0123589 seconds
+[Worker0] Imported GUID: c9dbe5f40ab138149a99966e27b28833 - Path: Packages/com.unity.connect.share/Editor/Localization/ja.po - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5a5e7e5a1c193ae06ce8967b8547c201') in 0.0051945 seconds
+[Worker0] Imported GUID: 9cf67673d405e4549ac6b20b38c9a218 - Path: Packages/com.unity.connect.share/Editor/Resources/Dark/icon-error@2x.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '75e5896ddcee3605b10a2cb9010cafe7') in 0.0137461 seconds
+[Worker0] Imported GUID: 018f1adb8258a4133b73805294498947 - Path: Packages/com.unity.settings-manager/Tests/Editor/MultipleProjectSettings.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7056d06928f305df96b99430864cfc04') in 0.0035961 seconds
+[Worker0] Imported GUID: 390e86797cecd3240afb47bf88428341 - Path: Packages/com.unity.connect.share/Editor/Localization/zh-hans.po - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a66547d70d05da211560ddef3dffb931') in 0.0057947 seconds
+[Worker0] Imported GUID: 0dc75b34a006d47f48c004031e6ef14d - Path: Packages/com.unity.settings-manager/Editor/UserSettingsProvider.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '64f27df81c390c127f43110140ef0b73') in 0.0042704 seconds
+[Worker0] Imported GUID: 7c88555e06087e44fbdd36b1e88131a9 - Path: Packages/com.unity.connect.share/Editor/Resources/Dark/icon-image-large.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '31ce1e4757aaf5bf787095194e461828') in 0.0125488 seconds
+[Worker0] Imported GUID: 810a5b0c369939e45bd85ac3b34dc728 - Path: Packages/com.unity.connect.share/Editor/PublisherWindow.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '171f5fc52e648b5a1588e998325b2912') in 0.0038154 seconds
+[Worker0] Imported GUID: 39279a65553e8b441a69e1a02fa526e6 - Path: Packages/com.unity.connect.share/Editor/InternalBridge/AssemblyInfo.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '42e0dbe5a297eaec4ffc4f2c3d5f6197') in 0.0038728 seconds
+[Worker0] Imported GUID: e5399d0c8a4c39ad88315355abddd91c - Path: Packages/com.unity.settings-manager - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'da04181c85cac0ed36744fb7f7946cad') in 0.0025644 seconds
+[Worker0] Imported GUID: d033b1dbb892f024ab32419e96b3ee4d - Path: Packages/com.unity.connect.share/UI/Upload_Old.uxml - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5c87914d1041dc9833c466614edeb62f') in 0.0184368 seconds
+[Worker0] Imported GUID: 6428ca6f30e71ee4dbea7e1d0787cb07 - Path: Packages/com.unity.editorcoroutines/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f207c83de1c6782bbb15020f014fdbd9') in 0.004887 seconds
+[Worker0] Imported GUID: a1b65627a05b24845b5e4091fd1cafac - Path: Packages/com.unity.connect.share/Editor/Resources/Light/icon-success.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '786f37e93c887715f1c21176c48d37fd') in 0.0160615 seconds
+[Worker0] Imported GUID: 206e4e7cd6bc643199eb689384c2f39a - Path: Packages/com.unity.connect.share/Tests/Editor - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f01156197fe50d140e3827416048d849') in 0.003723 seconds
+[Worker0] Imported GUID: 2b9503ac75ac6496f84c9ebb227eba79 - Path: Packages/com.unity.connect.share/Editor/Resources - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2d3d2c0bfa453c32e805d39b0c8314c9') in 0.0042363 seconds
+[Worker0] Imported GUID: 7a9aa38fc8dc8f34bb29fde505eb73ec - Path: Packages/com.unity.connect.share/UI/Processing.uss - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '451d44ef613572018965bf3b2d1b697b') in 0.0103932 seconds
+[Worker0] Imported GUID: cb296f20fab23434eae04536bbab1ed1 - Path: Packages/com.unity.connect.share/UI/BuildContainerTemplate.uxml - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ca6bd6613797bf3953a9ab1dc38d80d1') in 0.0147266 seconds
+[Worker0] Imported GUID: 7f9afac6b75cf4378a2dd104851c5548 - Path: Packages/com.unity.connect.share/Editor/Resources/Light/html5-logo.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '04020959a0093c935ae25bdcc22bd5a4') in 0.0154905 seconds
+[Worker0] Imported GUID: 4cd118ee0ff29c4488694a444550f59e - Path: Packages/com.unity.settings-manager/ValidationExceptions.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8cc2ac78b5e4e679603e94d3af30ce1b') in 0.0041895 seconds
+[Worker0] Imported GUID: e4c687001951581498a4776c4057df24 - Path: Packages/com.unity.connect.share/Editor/Localization - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b76ae7a2c2b2fd7e1d2e42d57c78cc97') in 0.0038367 seconds
+[Worker0] Imported GUID: 574222ea3c858044ea2fc8c9948cfcca - Path: Packages/com.unity.connect.share/UI/Success.uxml - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b3ae2a1e0b6f491c2ffbd51ccb72c526') in 0.0141855 seconds
+[Worker0] Imported GUID: effefe0acf6684e4f94fe866675d61b0 - Path: Packages/com.unity.connect.share/Editor/Resources/Dark/icon-folder@2x.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'fd77b02796a24e75e9cd46c3d6703db0') in 0.0113461 seconds
+[Worker0] Imported GUID: c24f57f3f3c554e51ab791526e33e337 - Path: Packages/com.unity.settings-manager/Editor/UserSettings.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '72ce5cfb33360236069ea77ef88e4527') in 0.0039467 seconds
+[Worker0] Imported GUID: 52538db60de0a46e0aff3eb9cb41c9ce - Path: Packages/com.unity.connect.share/Editor/Resources/Light/icon-success@2x.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '773756eebb709e8e13f42593a9221f27') in 0.0196053 seconds
+[Worker0] Imported GUID: 69d5c7e4989ae4dfab60b1dcc5f58ebb - Path: Packages/com.unity.connect.share/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1d8ebe6dece8f0859eec5b54195aa00e') in 0.0052241 seconds
+[Worker0] Imported GUID: f709656bdb9271c4e80be1cec3609bdf - Path: Packages/com.unity.connect.share/UI/NotLoggedIn_Dark.uss - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7ccc04ef761c21851538e995517f9d4c') in 0.0084034 seconds
+[Worker0] Imported GUID: a335852cc92979b4491a73d38170e19c - Path: Packages/com.unity.connect.share/Editor/Resources/Dark/icon-image.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '895f22ef342bdc1db721c9779e65f859') in 0.0133686 seconds
+[Worker0] Imported GUID: a672678b43d60c542ad9d861eba67c99 - Path: Packages/com.unity.editorcoroutines/Editor/EditorCoroutineUtility.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b01ca5733daaed1ccf9a327c961eb6f2') in 0.0035228 seconds
+[Worker0] Imported GUID: c3ec6d10638d94feaa03c223b6fee2cc - Path: Packages/com.unity.settings-manager/Editor/UserSetting.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd8bf4a18622551ce6442404576cdab8a') in 0.0040823 seconds
+[Worker0] Imported GUID: 4774b2f29b63d2844915d86afff02b47 - Path: Packages/com.unity.settings-manager/CHANGELOG.md - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0c396ca77e5fd03debc57ec6510fb0e5') in 0.0046508 seconds
+[Worker0] Imported GUID: 6890180c24bf244aea01f1bc4b8844ee - Path: Packages/com.unity.connect.share/Editor/Resources/Dark/icon-error.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1498004cf7e23f92d1d3fbd085de4ec7') in 0.0155798 seconds
+[Worker0] Imported GUID: 621fb9ee4ff90a542b5c3304d7f1a6b4 - Path: Packages/com.unity.connect.share/UI/NotLoggedIn.uxml - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'cd85608c513a83d90c1b84eca6200b16') in 0.0132411 seconds
+[Worker0] Imported GUID: f4e822a0337b6cf4aade8abffaf819a8 - Path: Packages/com.unity.editorcoroutines/CHANGELOG.md - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8e8a699f1f073be5db6f646a6779397d') in 0.0059332 seconds
+[Worker0] Imported GUID: da410210214b7144d8ac6ef5bcbdcc50 - Path: Packages/com.unity.connect.share/UI/Processing_Dark.uss - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6d9f8ab11d062f1b3db3c79a5b37f9df') in 0.0051678 seconds
+[Worker0] Imported GUID: 9563dd1f3643cc54ba60086d957fcd78 - Path: Packages/com.unity.settings-manager/Tests/Editor - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3d17aefe3d0efd01f625c477ae905702') in 0.0037649 seconds
+[Worker0] Imported GUID: e84a8b54b076b4b6b9a9029a62157345 - Path: Packages/com.unity.connect.share/Editor/Resources/Light/icon-image-large.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1ddc5af7d6a3cb89cedec9b5bc8a868b') in 0.0138931 seconds
+[Worker0] Imported GUID: 90446e34876eedc48a1bd6842402923b - Path: Packages/com.unity.connect.share/UI/Introduction_Dark.uss - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f298daebffd4f8af0dc6b8d9ab7da933') in 0.0084706 seconds
+[Worker0] Imported GUID: ac8079cacc24743818e2c3c4b00c644c - Path: Packages/com.unity.connect.share/Editor/Resources/Dark - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5958ff5e6067136b22f90e31deec4316') in 0.0039583 seconds
+[Worker0] Imported GUID: 2052394e70e434519829eb569f8e6d95 - Path: Packages/com.unity.connect.share/Editor/Redux - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c83d14cade1b067a88c72aa3622e3dbe') in 0.0032987 seconds
+[Worker0] Imported GUID: c9f6157037eb04661a34ce4b5881f4ce - Path: Packages/com.unity.connect.share/CHANGELOG.md - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f90ada991e0c21ea704103f2677985a2') in 0.0049148 seconds
+[Worker0] Imported GUID: 3001f7491ac66e34a9694543d9f8b1ee - Path: Packages/com.unity.settings-manager/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a43d1b27edad49132aeb7cfe8d2af130') in 0.0036155 seconds
+[Worker0] Imported GUID: 3519e7412bdfb491994cb42c05903f79 - Path: Packages/com.unity.connect.share/Editor/Resources/Dark/icon-delete.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '71093938c41fd28f9773b3e4500dde46') in 0.010921 seconds
+[Worker0] Imported GUID: f7e6fc076c9242b19d42a4b2cc9d0507 - Path: Packages/com.unity.settings-manager/Tests/Editor/SettingsTestBase.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ff7d13592658f6171e9c380125b87c96') in 0.0048046 seconds
+[Worker0] Imported GUID: f244bcbd586ad4cf0804d31cbc5e6292 - Path: Packages/com.unity.connect.share/Editor/Redux/Middleware.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e1147a8a9e9e4f1352a3b7f867cc5cdb') in 0.0037473 seconds
+[Worker0] Imported GUID: 0c994f2867563294187627a3b9f7aad3 - Path: Packages/com.unity.connect.share/UI/Uploading.uss - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '13a3559fd3fb9e2da2c816a931661de7') in 0.0088689 seconds
+[Worker0] Imported GUID: f1c14e5d80b8246588ed9ec9d7566c9d - Path: Packages/com.unity.connect.share/Editor/Redux/AppState.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '41d737c7918008a4cfc945d2cd8e08e0') in 0.0034662 seconds
+[Worker0] Imported GUID: e3e62174891db9d43b9adee028159625 - Path: Packages/com.unity.editorcoroutines/Editor/EditorWindowCoroutineExtension.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f5bec9bcb6a8feb525b54e6b312c485a') in 0.0041152 seconds
+[Worker0] Imported GUID: d36ced2c1b6fe4be6b34ace7f5551071 - Path: Packages/com.unity.connect.share/Editor/Resources/Dark/icon-uploading.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '21f393d4b112dbf9ed83cd513c0c6b78') in 0.0151864 seconds
+[Worker0] Imported GUID: 27264456a8bbc094d9479c5d5f9b0aa5 - Path: Packages/com.unity.settings-manager/LICENSE.md - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0120ed988212ad5025abf46c943ab0cb') in 0.0047254 seconds
+[Worker0] Imported GUID: ddfbf85211fc345448a5261ab9c73067 - Path: Packages/com.unity.connect.share/Editor/Resources/Dark/icon-build-and-share@2x.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9d6e120cb0b929a4007a1ffcf65c2c77') in 0.0172225 seconds
+[Worker0] Imported GUID: d39ca15b78f87481c931d3aaff27a27c - Path: Packages/com.unity.connect.share/Editor/Resources/Light/icon-folder.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '27223871f3bd0a0f17099e26ba7ffa14') in 0.0153942 seconds
+[Worker0] Imported GUID: 0c87d0cd0951041dc9db8e96b13fffac - Path: Packages/com.unity.connect.share/Editor/InternalBridge/UnityConnectSession.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a0b2552702d209b4f30cd5cf8ca29c90') in 0.0046539 seconds
+[Worker0] Imported GUID: 62029170dbdd21841b8f8f86912d99c0 - Path: Packages/com.unity.connect.share/Editor/UIElementsUtils.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2c615dd2bd50bfa6ecbc6c5c6f1cdbeb') in 0.0040884 seconds
+[Worker0] Imported GUID: 9eff477e4332346818c96745043dae9e - Path: Packages/com.unity.settings-manager/Content/Options.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '709f6c2c140892b8267abee9ae725726') in 0.0196432 seconds
+[Worker0] Imported GUID: ed0fc4b33569ea942b5ca1b17ba08641 - Path: Packages/com.unity.connect.share/Editor/Localization/en.po - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '16fbf1f974fb87e4984dcf73595ee85e') in 0.0049617 seconds
+[Worker0] Imported GUID: 8e2e054ed623847d29efb1262605e8ef - Path: Packages/com.unity.settings-manager/Editor/PackageSettingsRepository.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '521df0c09b5ccf9c9fa8a0b7144f0d49') in 0.0030833 seconds
+[Worker0] Imported GUID: 50a6fc8c3b2317d4ba4626f9a7ff851b - Path: Packages/com.unity.connect.share/Editor/PublisherBuildProcessor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7e85b6a8e476bffba7511cb66957a408') in 0.0037317 seconds
+[Worker0] Imported GUID: bb7f3a68effaa46d2bdcdfdcf9cfe206 - Path: Packages/com.unity.connect.share/Editor/Resources/Dark/icon-processing@2x.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4ad6e38acc8fcf8a4ef233c68e31c8a6') in 0.0134455 seconds
+[Worker0] Imported GUID: 19b530bfef22d4caebb620b059757936 - Path: Packages/com.unity.connect.share/LICENSE.md - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '40896ab25b702f7e21c114463c5089b4') in 0.003007 seconds
+[Worker0] Imported GUID: 30e7b5764902497297f0c9ca80bb179a - Path: Packages/com.unity.settings-manager/Editor/ProjectUserSettings.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '035f4ebc2ab46d3420c6c4e441a2079c') in 0.0037313 seconds
+[Worker0] Imported GUID: bd73394b44f9292409cfdf6c8844ed2b - Path: Packages/com.unity.connect.share/UI/Upload.uss - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6ea1942f4a00286acd538b33021e6c59') in 0.0054207 seconds
+[Worker0] Imported GUID: b21a41a0791c14939a8498e93cb5cafc - Path: Packages/com.unity.connect.share/Editor/Resources/Dark/icon-processing.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '35eff730c01cae0f8190c34a1a1e7695') in 0.010905 seconds
+MonoPathRemapper: Attempts to remap: 21803; Successful remaps: 2454
+Serialized file version minimum: 23, current 23
+[LAYOUT] About to save layout D:\2025_UCCI\CHANCHOFINAL\ECODASH_6000_6_0f1\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/HP/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+[Licensing::IpcConnector] LicenseClient-HP-6000.6.0-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-HP-6000.6.0 channel disconnected successfully.
+Shut down.
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+Shut down UDS service system complete
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+abort_threads: Failed aborting id: 0000000000002E10, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 000000000000566C, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000002E10, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 000000000000566C, mono_thread_manage will ignore it
+
+debugger-agent: Unable to listen on 4828
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1791508051955,"processId":20748,"allocatedMemory":12429146,"memoryLabels":[{"Default":175509},{"Permanent":15516},{"NewDelete":68829},{"Thread":4205640},{"Manager":34184},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":842384},{"Material":24},{"GfxDevice":62712},{"Animation":952},{"Audio":984},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":100648},{"Input":45280},{"JobScheduler":256},{"TextLib":23254},{"Mono":48},{"ScriptingNativeRuntime":1210712},{"BaseObject":49296},{"Resource":1208},{"Renderer":2376},{"Transform":4685},{"File":34146},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":934004},{"StaticString":3808},{"Utility":2674997},{"Curl":48},{"PoolAlloc":2168},{"AI":80},{"TypeTree":17165},{"ScriptManager":12640},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7584},{"WebRequest":4581},{"VR":49650},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":540},{"Camera":729},{"Secure":265},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":592},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":128},{"EditorUtility":148757},{"VersionControl":8},{"Undo":931},{"AssetDatabase":1225093},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":36881},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":176},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3594},{"Windowing":456},{"Licensing":696},{"AssetReference":32},{"IPCStream":32}]}
